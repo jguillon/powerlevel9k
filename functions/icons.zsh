@@ -235,7 +235,7 @@ case $POWERLEVEL9K_MODE in
       RUBY_ICON                      ''
       AWS_ICON                       'AWS:'
       AWS_EB_ICON                    $'\U1F331 '            # 🌱
-      BACKGROUND_JOBS_ICON           $'\u2699'              # ⚙
+      BACKGROUND_JOBS_ICON           $'\u2699 '              # ⚙
       TEST_ICON                      ''
       TODO_ICON                      $'\u2611'              # ☑
       BATTERY_ICON                   $'\U1F50B'             # 🔋
@@ -246,12 +246,12 @@ case $POWERLEVEL9K_MODE in
       NODE_ICON                      $'\u2B22'              # ⬢
       MULTILINE_FIRST_PROMPT_PREFIX  $'\u256D'$'\u2500'
       MULTILINE_SECOND_PROMPT_PREFIX $'\u2570'$'\u2500 '
-      APPLE_ICON                     'OSX'
+      APPLE_ICON                     $'\U1F34F ' 			# 🍏
       FREEBSD_ICON                   'BSD'
       ANDROID_ICON                   'And'
-      LINUX_ICON                     'Lx'
+      LINUX_ICON                     $'\U1F427 '			# 🐧
       SUNOS_ICON                     'Sun'
-      HOME_ICON                      ''
+      HOME_ICON                      $'\U1F3E0 ' 			# 🏠
       HOME_SUB_ICON                  ''
       FOLDER_ICON                    ''
       NETWORK_ICON                   'IP'
@@ -282,7 +282,7 @@ case $POWERLEVEL9K_MODE in
       GO_ICON                        'Go'
       PUBLIC_IP_ICON                 ''
       LOCK_ICON                      $'\UE0A2'
-      EXECUTION_TIME_ICON            'Dur'
+      EXECUTION_TIME_ICON            $'\U23F1 '				# ⏱
       SSH_ICON                       '(ssh)'
     )
   ;;

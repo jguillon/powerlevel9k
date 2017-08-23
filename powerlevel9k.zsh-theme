@@ -333,7 +333,8 @@ prompt_background_jobs() {
     if [[ "$POWERLEVEL9K_BACKGROUND_JOBS_VERBOSE" == "true" ]] && [[ "$background_jobs_number" -gt 1 ]]; then
       background_jobs_number_print="$background_jobs_number"
     fi
-    "$1_prompt_segment" "$0" "$2" "$DEFAULT_COLOR" "cyan" "$background_jobs_number_print" 'BACKGROUND_JOBS_ICON'
+    # "$1_prompt_segment" "$0" "$2" "$DEFAULT_COLOR" "cyan" "$background_jobs_number_print" 'BACKGROUND_JOBS_ICON'
+    "$1_prompt_segment" "$0" "$2" "$DEFAULT_COLOR" "255" "$background_jobs_number_print" 'BACKGROUND_JOBS_ICON'
   fi
 }
 
@@ -612,7 +613,7 @@ prompt_command_execution_time() {
   fi
 
   if (( _P9K_COMMAND_DURATION >= POWERLEVEL9K_COMMAND_EXECUTION_TIME_THRESHOLD )); then
-    "$1_prompt_segment" "$0" "$2" "red" "226" "${humanReadableDuration}" 'EXECUTION_TIME_ICON'
+    "$1_prompt_segment" "$0" "$2" "cyan" "$DEFAULT_COLOR" "${humanReadableDuration}" 'EXECUTION_TIME_ICON'
   fi
 }
 
@@ -1009,7 +1010,8 @@ set_default POWERLEVEL9K_STATUS_OK_IN_NON_VERBOSE false
 prompt_status() {
   if [[ "$RETVAL" -ne 0 ]]; then
     if [[ "$POWERLEVEL9K_STATUS_VERBOSE" == true ]]; then
-      "$1_prompt_segment" "$0_ERROR" "$2" "red" "226" "$RETVAL" 'CARRIAGE_RETURN_ICON'
+      # "$1_prompt_segment" "$0_ERROR" "$2" "red" "226" "$RETVAL" 'CARRIAGE_RETURN_ICON'
+      "$1_prompt_segment" "$0_ERROR" "$2" "$DEFAULT_COLOR" "red" "$RETVAL" 'FAIL_ICON'
     else
       "$1_prompt_segment" "$0_ERROR" "$2" "$DEFAULT_COLOR" "red" "" 'FAIL_ICON'
     fi
