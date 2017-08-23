@@ -168,7 +168,7 @@ case $POWERLEVEL9K_MODE in
       RUBY_ICON                      $'\uF219 '             # 
       AWS_ICON                       $'\uF270'              # 
       AWS_EB_ICON                    $'\UF1BD  '            # 
-      BACKGROUND_JOBS_ICON           $'\uF013 '             # 
+      BACKGROUND_JOBS_ICON           $'\uF013'             # 
       TEST_ICON                      $'\uF188'              # 
       TODO_ICON                      $'\uF133'              # 
       BATTERY_ICON                   $'\UF240 '             # 
@@ -201,14 +201,14 @@ case $POWERLEVEL9K_MODE in
       VCS_TAG_ICON                   $'\uF02B '             # 
       VCS_BOOKMARK_ICON              $'\uF461 '             # 
       VCS_COMMIT_ICON                $'\uE729 '             # 
-      VCS_BRANCH_ICON                $'\uF126 '             # 
+      VCS_BRANCH_ICON                $'\uF126'             # 
       VCS_REMOTE_BRANCH_ICON         $'\uE728 '             # 
-      VCS_GIT_ICON                   $'\uF113 '             # 
-      VCS_GIT_GITHUB_ICON            $'\uE709 '             # 
-      VCS_GIT_BITBUCKET_ICON         $'\uE703 '             # 
-      VCS_GIT_GITLAB_ICON            $'\uF296 '             #  
-      VCS_HG_ICON                    $'\uF0C3 '             # 
-      VCS_SVN_ICON                   $'\uE72D '             # 
+      VCS_GIT_ICON                   $'\uF113'             # 
+      VCS_GIT_GITHUB_ICON            $'\uE709'             # 
+      VCS_GIT_BITBUCKET_ICON         $'\uE703'             # 
+      VCS_GIT_GITLAB_ICON            $'\uF296'             #  
+      VCS_HG_ICON                    $'\uF0C3'             # 
+      VCS_SVN_ICON                   $'\uE72D'             # 
       RUST_ICON                      $'\uE7A8 '             # 
       PYTHON_ICON                    $'\UE73C '             # 
       SWIFT_ICON                     $'\uE755'              # 
